@@ -41,7 +41,7 @@
 
 nav {
  display: flex;
- width: 130%;
+ width: 100%;
  position: fixed;
  align-items: center;
  justify-content: space-between;
