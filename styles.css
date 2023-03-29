@@ -4,34 +4,6 @@
   font-family: 'poppins', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* cursor: none; */
-}
-
-/* html, body {
-  cursor: none;
-} */
-
-
-/* Create a circular cursor */
-/* .cursor {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  border: 3.5px solid #5A606C;
-  background-color: #15181D;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  opacity: 0.5;
-  transform: translate(-50%, -50%);
-  pointer-events: none; allow clicks to pass through cursor
-} */
-
-/* Position the cursor based on mouse coordinates */
-/* html:hover .cursor {
-  transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y)));
-} */
 
 .hero {
   height: 100vh;
