@@ -4,6 +4,7 @@
   font-family: 'poppins', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background: #16181d;
   /* cursor: none; */
 }
 
@@ -240,6 +241,7 @@ button span {
   width: 700px;
   /* color: #fff; */
   color: #aaa;
+  background: #16181d;
   letter-spacing: 1px;
   line-height: 27px;
   font-weight: normal;
@@ -429,11 +431,13 @@ button span {
 	/* color:#333; */
   color:#aaa;
 	letter-spacing:1px;
+  background: #16181d00;
 }
 
 #progress-content-section .section-content p {
 	font-size:16px;
 	line-height:1.8em;
+  background: #16181d00;
 	color:#777;
 }
 
@@ -477,9 +481,89 @@ footer {
 
 footer p {
   font-size: 10.5px;
-  color: #373c45;
+  color: #41454f;
+  background: #16181d00;
   letter-spacing: 1.3px;
   text-transform: capitalize;
   font-weight: normal;
 }
 
+/* ---------- MOBILE DEVICES ---------- */
+@media only screen and (max-width: 600px) {
+  /* Hide lamp */
+  .lamp-container {
+  display: none;
+  }
+  
+  /* Hide light */
+  .light {
+  display: none;
+  }
+  
+  /* Hide button */
+  button {
+  display: none;
+  }
+  
+  /* Hide about image */
+  .about img {
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    padding-left: 100px; 
+  }
+
+  nav ul li a{
+    font-size: 13px; 
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+  .content h1 {
+    font-size: 70px;
+  }
+
+  .content h3 {
+    font-size: 15px;
+  }
+
+  .about {
+    width: 100%
+  }
+
+  .about-text {
+    font-size: 13px;
+    margin-left: 30px;
+  }
+  
+  .working {
+    width: 100%;
+  }
+
+  .working h1 {
+    font-size: 40px;
+  }
+
+  #progress-content-section .section-content h2 {
+    font-size: 17px;
+  }
+
+  #progress-content-section .section-content p {
+    font-size: 13px;
+  }
+
+  #progress-bar-container li .step-inner {
+    font-size: 10px;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
